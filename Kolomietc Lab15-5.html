@@ -1,0 +1,10 @@
+let temperatureCelsius = prompt("Введіть температуру в градусах Цельсія:");
+
+// Перетворюємо введене значення в число
+temperatureCelsius = parseFloat(temperatureCelsius);
+
+// Обчислюємо температуру в градусах Фаренгейта за формулою
+let temperatureFahrenheit = (9/5) * temperatureCelsius + 32;
+
+// Виводимо результат у модальному вікні alert
+alert(`Температура за Цельсієм ${temperatureCelsius}°C відповідає температурі за Фаренгейтом ${temperatureFahrenheit}°F.`);
